@@ -18,4 +18,10 @@ fun main() {
     | 1111
     """.trimMargin("1")
     println(text2)
+
+    val generalArray = arrayOf(1, 2, 3)
+    val intArray = generalArray.toIntArray()
+    for (ch in intArray) {
+        println(ch)
+    }
 }
