@@ -10,7 +10,7 @@ fun main() {
 
     val cond = true;
     println(
-        "${if(cond) 'a' else 'b'}"
+        "${if (cond) 'a' else 'b'}"
     )
 
     val x = 10
@@ -20,5 +20,13 @@ fun main() {
 
     println(""" s = "$s" """)
     println(""" s = "${x + 3}" """)
+
+    val nurseryRhyme = """
+   *Humpty Dumpty sat on a wall
+    |Humpty Dumpty had a great fall
+    |All the king's horses and all the king's men
+    |Couldn't put Humpty together again
+""".trimMargin("*")
+    println(nurseryRhyme)
 
 }
